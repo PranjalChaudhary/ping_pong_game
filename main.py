@@ -4,6 +4,7 @@ from balls import Ball
 import time
 from scoreboard import ScoreBoard
 
+
 screen = Screen()
 screen.tracer(0)
 screen.bgcolor("black")

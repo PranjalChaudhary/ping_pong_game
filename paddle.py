@@ -5,15 +5,15 @@ class Paddle(Turtle):
     def __init__(self, x_cor, y_cor):
         super().__init__()
         self.paddle = Turtle()
-        self.xcor = x_cor
-        self.ycor = y_cor
+        self.xcord = x_cor
+        self.ycord = y_cor
         self.shape('square')
         self.color('white')
         self.shapesize(stretch_len=1, stretch_wid=5)
         self.penup()
         self.new_y = 0
         self.speed("fastest")
-        self.goto(self.xcor, self.ycor)
+        self.goto(self.xcord, self.ycord)
 
     def move_up(self):
         self.new_y = self.ycor() + 20
